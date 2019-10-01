@@ -4,25 +4,25 @@ class Turn {
     this.card = object
   }
   returnGuess() {
-    return this.guess
+    return this.guess;
   }
   returnCard() {
-    return this.card
+    return this.card;
   }
   evaluateGuess() {
     if (this.returnGuess() === this.card.correctAnswer) {
-      this.giveFeedback()
-      return true
+      this.giveFeedback();
+      return true;
     } else { 
-      this.giveFeedback()
-      return false
+      this.giveFeedback();
+      return false;
     }
   }
   giveFeedback() {
     if (this.returnGuess() === this.card.correctAnswer) {
-      return "correct!"
+      return "correct!";
     } else {
-      return "incorrect!"
+      return "incorrect!";
     }
   }
 }
