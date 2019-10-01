@@ -29,11 +29,12 @@ describe('Game', function() {
     expect(game.currentRound).to.equal(0);
   });
 
-  it.skip('should create instances of Cards and put them into an instance of a Deck', function() {
+  it('should create instances of Cards and put them into an instance of a Deck', function() {
     const game = new Game();
+    const deck = new Deck(prototypeQuestions)
 
     // game.start(prototypeQuestions);
-    expect(game.start(prototypeQuestions)).to.equal(deck);
+    expect(game.start(prototypeQuestions)).to.deep.equal(deck);
       
   })
 
