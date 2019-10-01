@@ -29,7 +29,9 @@ class Round {
   }
 
   endRound() {
-
+    if (this.turns === this.deck.deck.length) {
+      return `** ROUND OVER ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`
+    }
   }
 }
 
