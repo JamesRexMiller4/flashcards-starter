@@ -9,17 +9,16 @@ class Game {
     this.currentRound = 0
     // this.data = prototypeQuestions
   }
-  start(data) {
-    // const cards = []
-    // // const deck = new Deck ()
-    // console.log(data[i]);
-    // for (let i = 0; i < data.length; i++) {
-    //   var card = new Card(data[i])
-    //   cards.push(card)
-    // }
-    // const deck = new Deck(cards);
-    // console.log(deck[0])
-    // return deck;
+  start(details) {
+    const cards = []
+
+    details.forEach(function(data) {
+      var cardDetail = Object.values(data)
+      var card = new Card(cardDetail[0], cardDetail[1], cardDetail[2], cardDetail[3])
+      cards.push(card)
+    })
+    const deck = new Deck(cards);
+    return deck;
   }
 
   printMessage(deck, round) {
