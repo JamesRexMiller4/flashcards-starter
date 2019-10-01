@@ -1,20 +1,20 @@
 class Turn {
-    constructor() {
+  constructor(guess, object) {
+    this.guess = guess
 
-    }
-    returnGuess(){
+  }
+  returnGuess() {
 
-    }
-    returnCard(){
+  }
+  returnCard() {
 
-    }
+  }
+  evaluateGuess() {
 
-    evaluateGuess(){
+  }
+  giveFeedback() {
 
-    }
-    giveFeedback(){
-        
-    }
+  }
 }
 
 
