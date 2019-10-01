@@ -33,7 +33,6 @@ describe('Game', function() {
     const game = new Game();
     const deck = new Deck(prototypeQuestions)
 
-    // game.start(prototypeQuestions);
     expect(game.start(prototypeQuestions)).to.deep.equal(deck);
       
   })
