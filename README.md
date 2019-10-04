@@ -6,7 +6,7 @@ This project sought to hone and refine the tenets of OOP through classes, as wel
 
 ### GAMEPLAY
 
-Users will be able to play through a deck of 30 cards regarding Javascript array prototype methods, objects, and arrays. As each card generates to the terminal the user is presented with a question and three options to choose from.
+Users will be able to play through a deck of 30 cards, prompted with questions regarding Javascript array prototype methods, objects, functions, and arrays. As each card generates to the terminal the user is presented with a question and three options to choose from.
 
 ![flashcards-start](https://user-images.githubusercontent.com/27719824/66172023-9b873600-e607-11e9-8061-bf4b2bffba93.gif)
 
